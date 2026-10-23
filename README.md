@@ -3,7 +3,7 @@
 Colored diagnostics for MSVC's `cl.exe`.
 
 `cl.exe` has no equivalent of GCC/Clang's `-fdiagnostics-color`. `cl_color` is a tiny
-(~20 KB, no dependencies) wrapper that runs the compiler you give it, then colorizes
+(~60 KB, no dependencies) wrapper that runs the compiler you give it, then colorizes
 the diagnostics before printing them:
 
 - file path, `(line,col)`, severity (`error` / `warning` / `note`) and the `C4xxx` code each get their own color
